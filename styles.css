@@ -1,13 +1,13 @@
 /* * {
     border: 2px  solid red;
-}  */
+}   */
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .section-one {
-    background-color: #1F2937;
+    background-color: #65433C;
    display: flex;
    flex-direction: column;
    height: 550px;
@@ -119,7 +119,7 @@ body {
     background-color: pink;
     width: 100px;
     height: auto;
-
+    border-radius: 3px;
 }
 /* .section-one .s1-r {
     display: flex;
@@ -185,7 +185,7 @@ body {
 /* end section two */
 
 .section-three { 
-    background-color: #e5e7eb;
+    background-color: #D5BEB9;
     display: flex;
     justify-content: center;
 }
@@ -193,8 +193,8 @@ body {
 .section-three .s3-cont {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    flex-basis: 50%;
+    width: 900px;
+    padding: 20px;
 }
 .section-three .s3-main {
     display: flex;
@@ -218,11 +218,61 @@ body {
 }
 
 /* end of section three */
+
+.section-four {
+    display: flex;
+    background-color: #f7cac9;
+    justify-content: center;
+    margin: 25px 70px 25px 70px;
+} 
+
+.section-four .s4-cont {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+}
+
+.section-four .s4-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 500px;
+    padding-right: 20px;
+    padding: 5px;
+}
+
+.section-four .s4-h {
+    flex: 1 1 auto;
+    display: flex;
+    margin: -10px;
+}
+.section-four .sign-up {
+    flex: 1 1 auto;
+    display: flex;
+    margin: -10px;
+}
+.section-four .s4-button {
+    display: flex;
+    align-items: center;
+}
+
+.section-four .s4-button button {
+    background-color: pink;
+    width: 100px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
 .footer {
     display: flex;
     color: #E5E7EB;
     font-size: 10px;
-    background-color: #1F2937;
+    background-color: #65433C;
     justify-content: center;
     align-items: center;
     height: 50px;
