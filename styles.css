@@ -1,4 +1,4 @@
-/* * {
+ /* * {
     border: 2px  solid red;
 }   */
 
@@ -11,7 +11,7 @@ body {
     background-color: #65433C;
    display: flex;
    flex-direction: column;
-   height: 550px;
+   /* height: 550px; */
 }
 
 .section-one .s1-h {
@@ -77,10 +77,11 @@ body {
 .section-one .main-content {
     display: flex;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 20px;
 }
+
 .section-one .s1-left {
     display: flex;
     flex-direction: column;
@@ -88,6 +89,13 @@ body {
     justify-content: start;
     padding-right: 50px;
     align-content: flex-start;
+}
+
+.section-one .s1-left-cont {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 25px;
 }
 
 .section-one .web-awe {
@@ -121,19 +129,23 @@ body {
     width: 100px;
     height: auto;
     border-radius: 3px;
+    font-size: 15px;
 }
-/* .section-one .s1-r {
+.section-one .s1-r {
     display: flex;
-    width: auto;
     justify-content: center;
-    height: 400px; 
-} */
+    width: 100%;
+    padding-bottom: 50px;
+    
+} 
 
 .section-one .s1-r > img {
-   width: 100%;
    border-radius: 25px;
    display: flex;
    justify-content: center;
+   align-items: center; 
+   width: 55%;
+   
 }
 
 /* end of section one */
@@ -194,7 +206,7 @@ body {
 .section-three .s3-cont {
     display: flex;
     flex-direction: column;
-    width: 900px;
+    max-width: 900px;
     padding: 20px;
 }
 .section-three .s3-main {
