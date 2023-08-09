@@ -80,7 +80,8 @@ body {
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 20px;
-}
+    margin-bottom: 20px;
+}   
 
 .section-one .s1-left {
     display: flex;
@@ -88,7 +89,6 @@ body {
     flex-wrap: wrap;
     justify-content: start;
     padding-right: 50px;
-    align-content: flex-start;
 }
 
 .section-one .s1-left-cont {
@@ -105,9 +105,8 @@ body {
     display: flex;
     /* margin-top: auto; */
     justify-content: center;
-    
-    
 }
+
 .section-one .s1-lorem {
     display: flex;
     color: #E5E7EB;
@@ -135,6 +134,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: auto;
     padding-bottom: 50px;
     
 } 
