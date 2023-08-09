@@ -224,6 +224,7 @@ body {
     background-color: #f7cac9;
     justify-content: center;
     margin: 25px 70px 25px 70px;
+    border-radius: 5px;
 } 
 
 .section-four .s4-cont {
