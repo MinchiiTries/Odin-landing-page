@@ -1,6 +1,6 @@
 /* * {
     border: 2px  solid red;
-}  */
+}   */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,8 +15,8 @@ body {
 
 .section-one .s1-h {
     display: flex;
-    gap: 300px;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .section-one .s1-h .h-logo {
@@ -129,6 +129,60 @@ body {
     width: auto;
 }
 
+/* end of section one */
+
+.section-two {
+    text-align: center;
+}
+
+.section-two .s2-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 15px;
+    
+}
+.section-two .containers {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-two .kermit-ex > img{
+    border: 2px  solid grey;
+    border-radius: 25px;
+    width: 200px;
+    box-shadow: 0 10px 30px black;
+}
+
+.section-two .kermit-ques > img{
+    border: 2px  solid grey;
+    border-radius: 25px;
+    width: 200px;
+    box-shadow: 0 10px 30px black;
+}
+
+.section-two .kerrmit > img{
+    border: 2px  solid grey;
+    border-radius: 25px;
+    width: 200px;
+    box-shadow: 0 10px 30px black;
+}
+
+.section-two .kerkermit > img{
+    border: 2px  solid grey;
+    border-radius: 25px;
+    width: 200px;
+    box-shadow: 0 10px 30px black;
+}
+
+/* end section two */
 .footer {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 10px;
     background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
